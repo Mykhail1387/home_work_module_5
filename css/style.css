@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.site-head {
+  height: 90px;
+  position: relative;
+}
+.site-logo {
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.navigation li {
+  float: left;
+  list-style: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  }
+.navigation li:not(:last-child) {
+  margin-right: 34px;
+}
+.navigation a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.navigation a:hover {
+  color: rgb(78, 198, 171);
+}
+.navigation {
+  position: absolute;
+  top: 50%;
+  left: 614px;
+  transform: translateY(-50%);
+}
+.site-main {
+  font-family: "Roboto", sans-serif;
+}
+.image-fon {
+  position: relative;
+  height: 600px;
+  margin-bottom: 260px;
+}
+.but {
+  width: 105px;
+  height: 105px;
+  background-color: rgb(78, 198, 171);
+  border: none;
+}
+.left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right {
+  position: absolute;
+  top: 50%;
+  right: 215px;
+  transform: translateY(-50%);
+}
+.text {
+  position: absolute;
+  transform: translateY(-50%);
+  left: 420px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.Affordable_Paris {
+  top: 41%;
+  font-size: 52px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.city_tours {
+  top: 51%;
+  font-size: 20px;
+  font-weight: 300;
+}
+.cards {
+  position: relative;
+  margin-bottom: 100px;
+}
+.new-colect {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 420px;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: rgb(81, 81, 81);
+}
+.new-colect::after {
+  display: block;
+  width: 160px;
+  height: 8px;
+  background-color: rgb(26, 188, 156);
+  content: "";
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.list-item {
+  position: relative;
+}
+.block {
+  width: 235px;
+  height: 260px;
+  background-color: #000;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  opacity: 0;
+}
+.two {
+  position: absolute;
+  top: 10px;
+  left: 300px;
+}
+.three {
+  position: absolute;
+  top: 10px;
+  left: 574px;
+}
+.four {
+  position: absolute;
+  top: 10px;
+  left: 860px;
+}
+.block:hover {
+  opacity: 0.6;
+}
+.list-icons {
+  position: absolute;
+  top: 50%;
+  left: 36px;
+  transform: translateY(-50%);
+}
+.heart {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+}
+.random {
+  position: absolute;
+  top: 15px;
+  left: 72px;
+}
+.clock {
+  position: absolute;
+  top: 15px;
+  left: 128px;
+}
+.cart {
+  position: absolute;
+  top: 68px;
+  left: 12px;
+}
+.add-cart {
+  position: absolute;
+  top: 78px;
+  left: 60px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.block li {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.block li:hover {
+  background-color: rgb(26, 188, 156);
+}
+#add-to:hover {
+  background-color: rgb(50, 50, 50);
+}
+#add-too:hover {
+  background-color: rgb(50, 50, 50);
+}
+#add-tooo:hover {
+  background-color: rgb(50, 50, 50);
+}
+#add-toooo:hover {
+  background-color: rgb(50, 50, 50);
+}
+.block li:not(:nth-child(n + 3)) {
+  margin: 0 5px 4px 0;
+}
+#add-to {
+  width: 164px;
+  height: 50px;
+}
+#add-too {
+  width: 164px;
+  height: 50px;
+}
+#add-tooo {
+  width: 164px;
+  height: 50px;
+}
+#add-toooo {
+  width: 164px;
+  height: 50px;
+}
+#add-to img {
+  float: left;
+}
+.list-item li {
+  float: left;
+  list-style: none;
+}
+.list-image:not(:last-child) {
+  margin-right: 30px;
+}
+.wrap-text p {
+  float: left;
+  height: 42px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 40px;
+  margin-top: -4px;
+}
+.descr {
+  width: 200px;
+  background-color: #292a2d;
+}
+.descr:hover {
+  background-color: #2b9c86;
+}
+.price {
+  width: 52px;
+  background-color: #77787b;
+}
+.price:hover {
+  background-color: #7fdbd4;
+}
+.my_footer {
+  position: relative;
+  height: 80px;
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+.footer_text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 35%;
+ }
+ .design:hover {
+   color: rgb(26, 188, 156);
+ }
+ .themen:hover {
+   color: rgb(26, 188, 156);
+ }
+ .docan:hover {
+   color: rgb(26, 188, 156);
+ }
